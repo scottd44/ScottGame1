@@ -1,5 +1,5 @@
 import type { Player, ZoneState, KillFeedEntry, Crate } from '../engine/types'
-import { WEAPON_STATS, HEAL_STATS, PLAYER_RADIUS, CRATE_SIZE, MAP_SIZE, INITIAL_ZONE_RADIUS } from '../engine/constants'
+import { WEAPON_STATS, HEAL_STATS, MAP_SIZE } from '../engine/constants'
 
 interface Props {
   localPlayer: Player

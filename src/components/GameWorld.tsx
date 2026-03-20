@@ -195,7 +195,7 @@ export default function GameWorld({ mode }: Props) {
 
   const {
     localPlayer, players, bulletsRef, crates, obstacles,
-    zoneRef, zone, killFeed, healPct, mouseScreen, interpPositions,
+    zoneRef, zone, killFeed, healPct, mouseScreen,
     handleInteract,
   } = useGame(mode === 'mobile' ? mobileInputRef : undefined)
 
